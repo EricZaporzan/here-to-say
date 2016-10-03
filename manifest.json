@@ -5,12 +5,15 @@
   "description": "On demand, wraps all reddit comments in a thread with the greatest rap verse of all time.",
   "version": "0.1",
 
-  "browser_action": {
-    "default_popup": "popup.html"
-  },
-
   "permissions": [
     "activeTab",
     "webNavigation"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.reddit.com/r/*/comments/*", "https://www.reddit.com/r/*/comments/*"],
+      "js": ["script.js"]
+    }
   ]
 }
