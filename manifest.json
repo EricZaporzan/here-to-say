@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Here to say",
-  "description": "On demand, wraps all reddit comments in a thread with the greatest rap verse of all time.",
-  "version": "0.1",
+  "description": "Automatically wraps all reddit comments in a thread with the greatest rap verse of all time.",
+  "version": "0.2",
 
   "permissions": [
     "activeTab",
